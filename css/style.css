@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .banner-section {
     width: 100%;
     height: 669px;
@@ -88,7 +92,7 @@
     display: block;
     border: 0;
     box-shadow: 0px 1px 1px lightgrey;
-    width: 80%;
+    width: 58%;
     margin: 30px auto;
     padding: 10px;
 }
@@ -98,6 +102,86 @@
     font-size: 18px;
 }
 
-.donate-div .donate-btn {
-    background-color: black;
+
+.plan-section {
+    text-align: center;
 }
+
+.plan-section h1 {
+    margin-top: 80px;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.plan-section p {
+
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 20px;
+    
+}
+
+.card-parent {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+
+}
+
+.plan-card1 {
+    width: 360px;
+    height: 352px;
+    background-color: rgb(79, 157, 166, 10%);
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.card-parent img{
+    margin-top: 30px;
+}
+
+.card-parent h3 {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.card-parent p {
+    margin-top: 30px;
+}
+
+.plan-card2 {
+    width: 360px;
+    height: 352px;
+    background-color: rgb(255, 89, 89, 10%);
+    margin: 10px;
+    padding: 10px;
+}
+
+.plan-card3 {
+    width: 360px;
+    height: 352px;
+    background-color: rgb(255, 244, 214, 100%);
+    margin: 10px;
+    padding: 10px;
+}
+
+.update-section {
+    text-align: center;
+}
+
+.update-section h1 {
+    margin-top: 80px;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.update-section p {
+
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 20px;
+    
+
+}
+

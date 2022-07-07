@@ -33,13 +33,14 @@
     border: 0px;
     margin-top: 30px;
     transition: 0.4s ease-in-out;
-    cursor: pointer;
+
 
 }
 
 .donate-btn:hover {
     background-color: #FF5959;
     color: white;
+    cursor: pointer;
 }
 
 .container {
